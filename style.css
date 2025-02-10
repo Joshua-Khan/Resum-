@@ -40,6 +40,10 @@ body {
     text-decoration: none;
     color: black;
 }
+.bi{
+    height: 40px;
+    width: 40px;
+}
 
 @media (max-width: 1364px ){
     .navbar-ul li{
@@ -253,17 +257,25 @@ svg{
     height: 15px;
     width: 15px;
 }
+
+.get-in-touch-mobile {
+    display: none;
+}
+
+
 @media (min-width: 350px) and (max-width: 613px) {
     .contact-me-section{
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
         padding-bottom: 3.125rem;
     }
-    .contact-me-header2{
-        display: block;
-    }
-    .contact-me-header2 h2{
+    .get-in-touch {
         display: none;
+    }
+    .get-in-touch-mobile {
+        display: block;
+        padding-bottom: 4.4375rem;
     }
 }
