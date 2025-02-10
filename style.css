@@ -103,6 +103,14 @@ body {
     .title-section{
         background-size: 500px 800px;
     }
+    .title-container .profile-photo{
+        height: 8rem;
+        width: 8rem;
+    }
+    .title-container h1{
+        font-size: 2rem;
+        margin: 0.625rem 0 1.25rem 0;
+    }
 }
 
 /* about-me-section(1) */
@@ -200,10 +208,10 @@ svg{
         text-align: justify;
     }
 }
-@media (min-width: 410px) and (max-width: 613px){
+@media (min-width: 517px) and (max-width: 613px){
     .about-me-container2{
         padding: 0;
-        height: 145vh;
+        height: 102vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -222,10 +230,10 @@ svg{
         text-align: justify;
     }
 }
-@media (min-width: 350px) and (max-width: 410px){
+@media (min-width: 435px) and (max-width: 516px){
     .about-me-container2{
         padding: 0;
-        height: 200vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
