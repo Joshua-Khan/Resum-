@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+svg{
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+/* navbar-section */
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background: rgb(157 209 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-icon-container{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.navbar-icon-container .navbar-icon{
+    margin: 0 5px 0 10px ;
+}   
+.navbar-ul{
+    height: 9vh;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-ul li{
+    list-style: none;
+}
+.navbar-ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* title-section */
+
+.title-section{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./Images/cover-photo.png) ;
+}
+.title-container{
+    height: 65vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.title-container .profile-photo{
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+.title-container h1{
+    font-size: 5rem;
+    margin: 10px 0 20px 0;
+}
+.title-container p{
+    font-size: 14px;
+}
+
+/* about-me-section */
+
+.about-me-container1{
+    padding: 30px 0;
+    height: 40vh;
+    width: 100%;
+    background-color: #B3C8CF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-container1 h2{
+    margin-bottom: 20px;
+}
+.about-me-container1 p{
+    /* border: 2px solid red; */
+    width: 80%;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.about-me-container2{
+    padding: 20px 0 0 35px;
+    height: 65vh;
+    background-color: #89A8B2;
+    text-align: justify;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.about-me-container2 .about-me-grid{
+    margin: 50px;
+    /* border: 2px solid black ; */
+    width: 40vw;
+}
+
+.about-me-container2 .about-me-grid p{
+    margin-top: 20px;
+}
+
+/* contact-me-section */
+ .contact-me-section{
+    height: 60vh;
+    width: 100%;
+    background-color: #B3C8CF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-me-container2 ul li{
+    list-style: none;
+}
+
+.contact-me-section .contact-me-svg{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+/* color-palatte
+#B1F0F7
+#81BFDA
+#F5F0CD
+#FADA7A
+
+D9EAFD
+BCCCDC
+9AA6B2
+B3C8CF
+89A8B2 */
