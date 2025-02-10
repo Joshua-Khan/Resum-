@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     color: black;
 }
-.bi{
+.bi-list {
     height: 40px;
     width: 40px;
 }
@@ -99,7 +99,13 @@ body {
     }
 }
 
-/* about-me-section */
+@media (min-width: 350px) and (max-width: 613px){
+    .title-section{
+        background-size: 500px 800px;
+    }
+}
+
+/* about-me-section(1) */
 .about-me-container1{
     padding: 30px 0;
     height: 40vh;
@@ -130,6 +136,8 @@ svg{
     height: 20px;
     width: 20px;
 }
+
+/* about-me-section(2) */
 .about-me-container2{
     height: 65vh;
     width: 100%;
@@ -141,7 +149,7 @@ svg{
 }
 
 .about-me-container2 .about-me-grid{
-    padding: 3.125rem 0 0 3.125rem;
+    padding: 3.125rem 3.125rem 0 3.125rem;
 }
 /* .about-me-grid h2{
     display: flex;
