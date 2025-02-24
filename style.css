@@ -10,7 +10,7 @@ body {
 .navbar{
     height: 10vh;
     width: 100%;
-    background: rgb(157 209 229);
+    background: #89A8B2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +97,6 @@ body {
     }
     .title-container p{
         text-align: center;
-        padding: 0 0.5rem;
     }
     .title-container p:nth-of-type(2){
         padding: 0 1.5rem;
@@ -118,10 +117,11 @@ body {
     }
 }
 
+
 /* about-me-section(1) */
 .about-me-container1{
-    padding: 5rem 0;
-    height: auto;
+    padding: 3rem 0;
+    height: 40vh;
     width: 100%;
     background-color: #B3C8CF;
     display: flex;
@@ -149,6 +149,8 @@ svg{
     height: 1.25rem;
     width: 1.25rem;
 }
+
+
 
 /* about-me-section(2) */
 .about-me-container2{
